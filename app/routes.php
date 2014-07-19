@@ -20,4 +20,4 @@ Route::get('about', function()
   return View::make('about');
 });
 Route::get('contact', 'Pages@contact');
-Route::resource('users', 'UserController');
+Route::resource('users', 'UsersController');
